@@ -2,7 +2,7 @@
 
 import logging
 logging.getLogger("scapy.runtime").setLevel(logging.ERROR)
-from scapy.all import *
+
 conf.verb = 0
 import argparse
 import sys
